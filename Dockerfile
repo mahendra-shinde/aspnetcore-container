@@ -2,7 +2,7 @@
 ## to ensure project is built and DLL generated in publish/ directory
 ### dotnet build -o publish 
 
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2.2-nanoserver-sac2016
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.1
 
 WORKDIR /app
 ## Ensure PUBLISH directory contains build artifacts (DLLs)
